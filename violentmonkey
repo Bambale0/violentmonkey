@@ -1,0 +1,113 @@
+{
+  "scripts": {
+    "Скрипт Вовы": {
+      "custom": {
+        "origInclude": true,
+        "origExclude": true,
+        "origMatch": true,
+        "origExcludeMatch": true,
+        "pathMap": {}
+      },
+      "config": {
+        "enabled": 1,
+        "removed": 0,
+        "shouldUpdate": 1
+      },
+      "position": 1,
+      "lastModified": 1765305366641,
+      "lastUpdated": 1758096845932
+    },
+    "Скрипт мой API": {
+      "custom": {
+        "origInclude": true,
+        "origExclude": true,
+        "origMatch": true,
+        "origExcludeMatch": true,
+        "pathMap": {}
+      },
+      "config": {
+        "enabled": 1,
+        "removed": 0,
+        "shouldUpdate": 1
+      },
+      "position": 2,
+      "lastModified": 1757841322904,
+      "lastUpdated": 1757766572140
+    }
+  },
+  "settings": {
+    "isApplied": true,
+    "blacklist": "",
+    "blacklistNet": "",
+    "popupWidth": 320,
+    "updateEnabledScriptsOnly": true,
+    "autoUpdate": 1,
+    "lastUpdate": 1765271560500,
+    "lastModified": 1757767681327,
+    "showBadge": "unique",
+    "badgeColor": "#880088",
+    "badgeColorBlocked": "#888888",
+    "exportValues": true,
+    "exportNameTemplate": "[violentmonkey]_YYYY-MM-DD_HH.mm.ss",
+    "expose": {
+      "greasyfork%2Eorg": true,
+      "sleazyfork%2Eorg": false
+    },
+    "closeAfterInstall": false,
+    "editAfterInstall": false,
+    "helpForLocalFile": true,
+    "trackLocalFile": false,
+    "autoReload": false,
+    "features": null,
+    "syncScriptStatus": true,
+    "customCSS": "",
+    "importScriptData": true,
+    "importSettings": true,
+    "notifyUpdates": false,
+    "notifyUpdatesGlobal": false,
+    "version": 1,
+    "defaultInjectInto": "auto",
+    "ffInject": true,
+    "xhrInject": false,
+    "filters": {
+      "searchScope": "name",
+      "showOrder": false,
+      "sort": "exec",
+      "viewSingleColumn": false,
+      "viewTable": false
+    },
+    "filtersPopup": {
+      "sort": "exec",
+      "enabledFirst": false,
+      "groupRunAt": true,
+      "hideDisabled": ""
+    },
+    "editor": {
+      "killTrailingSpaceOnSave": true,
+      "showTrailingSpace": true,
+      "autocompleteOnTyping": 100,
+      "lineWrapping": false,
+      "indentWithTabs": false,
+      "indentUnit": 2,
+      "tabSize": 2,
+      "undoDepth": 500
+    },
+    "editorTheme": "",
+    "editorThemeName": null,
+    "editorWindow": false,
+    "editorWindowPos": {},
+    "editorWindowSimple": true,
+    "scriptTemplate": "// ==UserScript==\n// @name        New script {{name}}\n// @namespace   Violentmonkey Scripts\n// @match       {{url}}\n// @grant       none\n// @version     1.0\n// @author      -\n// @description {{date}}\n// ==/UserScript==\n",
+    "showAdvanced": true,
+    "valueEditor": {
+      "autocompleteOnTyping": 100,
+      "lineWrapping": false,
+      "indentWithTabs": false,
+      "indentUnit": 2,
+      "tabSize": 2,
+      "undoDepth": 500
+    },
+    "uiTheme": ""
+  },
+  "values": {}
+}
