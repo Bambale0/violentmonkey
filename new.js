@@ -288,7 +288,7 @@ const AssistantHelper = {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': "Bearer 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",
+            'Authorization': "Bearer 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",
           },
           url: 'https://openrouter.ai/api/v1/chat/completions',
           overrideMimeType: 'application/json',
